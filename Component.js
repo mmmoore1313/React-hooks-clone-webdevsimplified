@@ -1,4 +1,7 @@
-export deafault function Component({ propCount }) {
+import { useState } from './MyReact.js'
+
+export default function Component({ propCount }) {
+  const [count, setCount] = useState(0)
   const count = 0
   const propCountDoubled = 0
   
